@@ -1,7 +1,6 @@
 name: .NET Regression Tests
 
-on:  # Запускается при push и pull request файлов .cs в ветку 
-master 
+on:  # Запускается при push и pull request файлов .cs в ветку master 
   push: 
     branches: [ "master" ] 
     paths: 
